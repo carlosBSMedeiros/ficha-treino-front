@@ -1,0 +1,165 @@
+{
+    "ficha": {
+        "id": "1",
+        "treinos": [
+            {
+                "id":"A",
+                "nome": "A - Peito Tríceps",
+                "exercicios": [
+                    {
+                        "nome": "Supino Declinado Barra",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Supino Reto Halter",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Crucifixo Inclinado",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Voador",
+                        "series": 3,
+                        "repeticoes": "10"
+                    },
+                    {
+                        "nome": "Supino Máquina",
+                        "series": 3,
+                        "repeticoes": "F"
+                    },
+                    {
+                        "nome": "Desenvolvimento",
+                        "series": 3,
+                        "repeticoes": "10-12"
+                    },
+                    {
+                        "nome": "Triceps Francês",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Tríceps Barra W",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Trícpes Corda",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Abdominal inferior",
+                        "series": 4,
+                        "repeticoes": "15"
+                    }
+                ]
+            },
+            {
+                "id":"B",
+                "nome": "B - Costas Bíceps",
+                "exercicios": [
+                    {
+                        "nome": "Remada Convergente Pronada",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Pulley Neutro Pirâmide",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Remada Baixa Fechada",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Voador Dorsal",
+                        "series": 3,
+                        "repeticoes": "10"
+                    },
+                    {
+                        "nome": "Encolhimento",
+                        "series": 3,
+                        "repeticoes": "15"
+                    },
+                    {
+                        "nome": "Elevação Lateral Sentado",
+                        "series": 3,
+                        "repeticoes": "10-12"
+                    },
+                    {
+                        "nome": "Scott Barra W",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Bíceps Martelo Alternado",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Bíceps Barra Polia",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Abdominal Superior",
+                        "series": 4,
+                        "repeticoes": "15"
+                    }
+                ]
+            },
+            {
+                "id":"C",
+                "nome": "C - Pernas",
+                "exercicios": [
+                    {
+                        "nome": "Agachamento Livre",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Cadeira Extensora",
+                        "series": 3,
+                        "repeticoes": "12"
+                    },
+                    {
+                        "nome": "Leg 45",
+                        "series": 3,
+                        "repeticoes": "10-12"
+                    },
+                    {
+                        "nome": "Mesa Flexora",
+                        "series": 3,
+                        "repeticoes": "10"
+                    },
+                    {
+                        "nome": "Leg 90",
+                        "series": 3,
+                        "repeticoes": "10-12"
+                    },
+                    {
+                        "nome": "Stiff Halter",
+                        "series": 3,
+                        "repeticoes": "10-12"
+                    },
+                    {
+                        "nome": "Panturrilha Sentado",
+                        "series": 3,
+                        "repeticoes": "15"
+                    },
+                    {
+                        "nome": "Abdominal Lateral",
+                        "series": 4,
+                        "repeticoes": "15"
+                    }
+                ]
+            }
+        ]
+    }
+}
