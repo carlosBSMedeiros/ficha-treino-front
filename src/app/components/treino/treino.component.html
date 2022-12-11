@@ -1,0 +1,21 @@
+<div class="treino">
+
+    <h4>Treino: {{treino.nome}}</h4>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="th-exercicio">Exercício</th>
+                <th class="th-serie">Séries</th>
+                <th class="th-reps">Repetições</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let exercicio of treino.exercicios">
+                <td class="td-exercicio">{{exercicio.nome}}</td>
+                <td class="td-serie">{{exercicio.series}}</td>
+                <td class="td-reps">{{exercicio.repeticoes}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

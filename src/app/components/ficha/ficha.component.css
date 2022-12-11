@@ -12,39 +12,3 @@
     justify-content: center;
 }
 
-.treino{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 1.5rem;
-    padding: 1rem;
-}
-
-.treino h4{
-    margin-bottom: 1.5rem;
-    font-weight: bold;
-}
-
-.treino table{
-    table-layout: fixed;
-    border: black solid 0.5px;
-    border-radius: 40px;
-    box-sizing: border-box;
-}
-
-.treino table th{
-    background-color: black;
-}
-
-
-.th-serie, .td-serie,
-.th-reps, .td-reps{
-    text-align: center;
-    width: 23%;
-    padding: 1.5rem 0 ;
-}
-.th-exercicio, .td-exercicio{
-    
-    padding: 1.5rem 0 ;
-    padding-left: 1rem;
-}
