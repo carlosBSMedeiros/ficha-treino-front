@@ -1,1 +1,14 @@
-<p>cronometro works!</p>
+<div class="cronometro">
+    <div class="cronometro-visor" [ngClass]="{'cronometro-visor-ativado': cronometroIniciado}">
+        <span id="cronometro-minutos">{{formatarMinutos()}}</span>:<span
+            id="cronometro-segundos">{{formatarSegundos()}}</span>
+    </div>
+    <div class="cronometro-botoes">
+        <button (click)="zerarCronometro()">
+            <span class="pi pi-stop"></span>
+        </button>
+        <button (click)="iniciarPararCronometro()"> 
+            <span class="pi" [ngClass]="{'pi-pause': cronometroIniciado, 'pi-play' : !cronometroIniciado}"></span>
+        </button>
+    </div>
+</div>

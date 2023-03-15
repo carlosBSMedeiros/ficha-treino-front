@@ -43,6 +43,20 @@ table {
 }
 
 * {
-    font-family: 'Poppins', sans-serif !important;
     font-family: 'Roboto', sans-serif !important;
+    box-sizing: border-box;
 }
+.pi {
+    font-family: 'primeicons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body { height: 100%; }

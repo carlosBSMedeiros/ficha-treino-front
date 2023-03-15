@@ -1,0 +1,41 @@
+.cronometro{
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.cronometro-visor{
+    font-size: 7rem;
+    font-weight: bold;
+    border: 1px white solid;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    transition: background-gradient 0.5s ease
+}
+
+.cronometro-visor-ativado{
+    background-color: #0096bfab;
+    background: linear-gradient(180deg, rgba(0,212,255,1) 5%, rgba(0,150,191,0.8015581232492998) 50%, rgba(0,212,255,0.8) 95%);
+}
+
+.cronometro-botoes{
+    margin-top: 20px;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.cronometro-botoes button{
+    margin-bottom: 0;
+    padding: 15px 35px;
+}
+
+
+
+
+
