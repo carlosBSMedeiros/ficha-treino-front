@@ -3,10 +3,9 @@
     display: flex;
     font-size: 17px;
     flex-direction: column;
-    margin-top: 2rem;
 }
 
-.botoes-treinos{
+.header{
     display: flex;
     align-items: center;
     justify-content: center;

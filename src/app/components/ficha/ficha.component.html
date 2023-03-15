@@ -1,19 +1,22 @@
 <div class="fichas">
 
-    <div class="botoes-treinos">
-        <button (click)="selecionarTreinoPorId('A')">
-            Treino A
-        </button>
-        <button (click)="selecionarTreinoPorId('B')">
-            Treino B
-        </button>
-        <button (click)="selecionarTreinoPorId('C')">
-            Treino C
-        </button>
+    <div class="header">
+
+        <div class="botoes-treinos">
+            <button (click)="selecionarTreinoPorId('A')">
+                Treino A
+            </button>
+            <button (click)="selecionarTreinoPorId('B')">
+                Treino B
+            </button>
+            <button (click)="selecionarTreinoPorId('C')">
+                Treino C
+            </button>
+        </div>
     </div>
 
 
-   <app-treino [treino]="treinoSelecionado"></app-treino>
+    <app-treino [treino]="treinoSelecionado"></app-treino>
 
 
 </div>
